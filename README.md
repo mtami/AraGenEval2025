@@ -35,6 +35,19 @@ The **AraGenEval** shared task aims to evaluate and improve NLP systems for Arab
 
 Full task details are available on the [official website](https://ezzini.github.io/AraGenEval/).
 
+## 🧠 Trained Models
+
+We published the trained models used in our experiments on Hugging Face — use them directly or as references for reproduction:
+
+* **Authorship style transfer** — Tami3 / authorship-style-transfer
+  [https://huggingface.co/Tami3/authorship-style-transfer](https://huggingface.co/Tami3/authorship-style-transfer)
+
+* **Author classifier (Arabic)** — Tami3 / arabic-author-classifier
+  [https://huggingface.co/Tami3/arabic-author-classifier](https://huggingface.co/Tami3/arabic-author-classifier)
+
+* **Human vs Machine detection (Arabic)** — dahoozi / arabic-human-vs-machine-aramodernbert
+  [https://huggingface.co/dahoozi/arabic-human-vs-machine-aramodernbert](https://huggingface.co/dahoozi/arabic-human-vs-machine-aramodernbert)
+
 ## ⚙️ Setup & Requirements
 
 Clone this repository:
@@ -44,7 +57,7 @@ git clone https://github.com/mtami/AraGenEval2025.git
 cd notebooks/
 ```
 
-
+(Recommended: use a Python 3.8+ virtual environment and install packages used in the notebooks — `transformers`, `datasets`, `torch`, `scikit-learn`, `pandas`, `jupyter`.)
 
 ## 🚀 Usage
 
@@ -53,3 +66,8 @@ Run the notebooks in `notebooks/` to reproduce results:
 ```bash
 jupyter notebook notebooks/<notebook_name>.ipynb
 ```
+
+## 📬 Questions / Contact
+
+If you have questions or want help reproducing any experiment, open an issue in this repo or contact the authors via their Hugging Face profiles linked above.
+
